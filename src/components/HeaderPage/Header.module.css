@@ -1,0 +1,27 @@
+header {
+  height: 3vmax;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.6rem;
+
+  /* Make the header fixed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+  font-size: 0.89rem;
+  font-weight: 400;
+  padding: 0.3rem;
+}

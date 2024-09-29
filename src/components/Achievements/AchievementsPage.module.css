@@ -1,0 +1,33 @@
+.achievements{
+    height: fit-content;
+    width: 100%;
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding:3rem
+}
+
+.certDes{
+    display:flex;
+    gap:24rem;
+    justify-content: center;
+}
+
+.imgSlider{
+    height: fit-content;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative
+}
+
+.imgSlider img{
+    height: auto;
+    width:100%;
+    object-fit: cover;
+}
